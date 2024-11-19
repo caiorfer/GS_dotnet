@@ -1,20 +1,23 @@
 **U.R.S.A.**
+
 99553 - Jaquelline Aparecida Candido Barbosa de Sousa
+
 99475 - Florbela Freitas Oliveira
+
 99617 - caio rocha fernandes
 
-https://github.com/caiorfer/GS_dotnet
-Sustainable Energy API
-Descrição do Projeto
+**Sustainable Energy API**
+
+***Descrição do Projeto***
 O Sustainable Energy API é uma aplicação que visa promover a sustentabilidade energética ao oferecer uma API para gerenciar processos energéticos, usando um banco de dados MongoDB para armazenar os dados de forma eficiente e segura. Além disso, a aplicação integra com a API OpenAI para fornecer recursos adicionais, como análise de dados e automação com inteligência artificial.
 
-Funcionalidades
+***Funcionalidades***
 Gerenciamento de Processos Energéticos: CRUD (Create, Read, Update, Delete) para gerenciamento de processos de eficiência energética.
 Integração com OpenAI: Capacidade de gerar respostas com IA para promover recomendações relacionadas a processos energéticos.
 MongoDB: Utiliza MongoDB para armazenamento de dados relacionados aos processos energéticos.
 Swagger: Documentação da API com o Swagger, facilitando o uso e integração de desenvolvedores.
 
-Tecnologias Utilizadas
+***Tecnologias Utilizadas***
 .NET 8: Framework para construção da API.
 MongoDB: Banco de dados NoSQL para persistência de dados.
 OpenAI API: Integração com a API do OpenAI para utilizar GPT-4.
@@ -78,3 +81,6 @@ SustainableEnergyAPI/
 ├── appsettings.json
 ├── Program.cs
 └── Startup.cs (se aplicável)
+
+***Licença***
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para mais informações.
