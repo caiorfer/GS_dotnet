@@ -1,4 +1,7 @@
 *SustainableEnergyAPI*
+
+
+
 SustainableEnergyAPI é uma aplicação desenvolvida em .NET Core para otimizar processos de energia sustentável. A API gerencia informações sobre processos energéticos e se integra com a OpenAI para fornecer insights adicionais.
 
 *Índice*
@@ -75,3 +78,6 @@ Execute os testes:
 
 Copiar código
 dotnet test
+
+Licença
+Este projeto é licenciado sob a MIT License.
