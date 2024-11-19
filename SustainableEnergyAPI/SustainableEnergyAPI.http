@@ -1,0 +1,6 @@
+@SustainableEnergyAPI_HostAddress = http://localhost:5225
+
+GET {{SustainableEnergyAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

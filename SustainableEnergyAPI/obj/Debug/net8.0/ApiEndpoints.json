@@ -1,0 +1,102 @@
+[
+  {
+    "ContainingType": "SustainableEnergyAPI.Controllers.EnergyProcessController",
+    "Method": "GetAllEnergyProcesses",
+    "RelativePath": "api/EnergyProcess",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SustainableEnergyAPI.Controllers.EnergyProcessController",
+    "Method": "CreateEnergyProcess",
+    "RelativePath": "api/EnergyProcess",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "processDTO",
+        "Type": "SustainableEnergyAPI.DTO.EnergyProcessDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SustainableEnergyAPI.Controllers.EnergyProcessController",
+    "Method": "GetEnergyProcessById",
+    "RelativePath": "api/EnergyProcess/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SustainableEnergyAPI.Controllers.EnergyProcessController",
+    "Method": "UpdateEnergyProcess",
+    "RelativePath": "api/EnergyProcess/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "processDTO",
+        "Type": "SustainableEnergyAPI.DTO.EnergyProcessDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SustainableEnergyAPI.Controllers.EnergyProcessController",
+    "Method": "PatchEnergyProcess",
+    "RelativePath": "api/EnergyProcess/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "partialUpdate",
+        "Type": "SustainableEnergyAPI.DTO.EnergyProcessDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SustainableEnergyAPI.Controllers.EnergyProcessController",
+    "Method": "DeleteEnergyProcess",
+    "RelativePath": "api/EnergyProcess/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
